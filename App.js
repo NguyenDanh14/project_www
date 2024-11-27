@@ -19,7 +19,7 @@ const Stack = createNativeStackNavigator();
 export default function App() {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName='MoreImacScreen' screenOptions={{headerShown: false}}>
+      <Stack.Navigator initialRouteName='TabletScreen' screenOptions={{headerShown: false}}>
           <Stack.Screen name='SmartWatchScreen' component={SmartWatchScreen}/>
           <Stack.Screen name='TabletScreen' component={TabletScreen}/>
           <Stack.Screen name='SmartWatchAppleScreen' component={SmartWatchAppleScreen}/>
